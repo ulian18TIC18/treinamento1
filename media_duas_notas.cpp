@@ -15,7 +15,7 @@ int main(){
 
     mediaNotas = (nota1 + nota2)/2;
 
-    cout << "A media em Matematica foi " << mediaNotas << " com as notas " <<
+    cout << "A mehdia em Matematica foi " << mediaNotas << " com as notas " <<
     nota1 << " e " << nota2 << endl;
 
 
