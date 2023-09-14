@@ -18,7 +18,7 @@ int test(int n){
 
 int main(){
 
-    cout << test(53) << endl;
+    cout << test(55) << endl;
     cout << test(30) << endl;
     cout << test(51) << endl;
 
