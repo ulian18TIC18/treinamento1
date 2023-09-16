@@ -15,7 +15,7 @@ void cumprimenta (string nome){
     {
         cout << "Bom dia" << nome << ", " << endl;
     }
-    else if ((horaAtual() >=12) && (horaAtual() <18))
+    else if ((horaAtual() >=12) && (horaAtual() <19))
     {
         cout << "Boa tarde" << nome << ", " << endl;
     }
