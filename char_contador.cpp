@@ -46,7 +46,7 @@ int main (){
 
     while (nota == 'S' || nota == 's');
 
-        cout << "Quantidade de alunos que obtiveram a nota: \n" << endl;
+        cout << "Numero de alunos que obtiveram a nota: \n" << endl;
 
         cout << "A quantidade de A foi: " << aQtd << endl;
         cout << "A quantidade de B foi: " << bQtd << endl;
