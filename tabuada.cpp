@@ -33,6 +33,7 @@ for(int m = 1; m < 11; m++){
     cout << divisao << " / " << m << " = " << divisao / m << endl;
 
 }
+
     cout << "\n" << endl;
 
 return 0;
