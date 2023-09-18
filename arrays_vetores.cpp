@@ -16,7 +16,7 @@ int main (void) {
 
     while (j < 5){
 
-        cout <<"O indices sao: " << val[j] << endl;
+        cout <<"Os indices em ordem: " << val[j] << endl;
         j++;
         
     }
