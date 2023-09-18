@@ -8,8 +8,7 @@ int main(){
     int n[10];
 
     for(int i = 0; i<=9; i++)
-    n[i] = i;
-
+    
     cout << "Elemento" << "\t" << "Índice" << "\t" << "Valor" << endl;
 
     for(int i = 0; i<10; i++)
