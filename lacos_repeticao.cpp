@@ -7,8 +7,7 @@ int main (){
 
     int numero, menorNum = 10000, ocorrencias = 0, soma = 0;
     float media;
-    bool limites = false;
-
+    
     for (int i = 0; i <= 4; i++){
 
         cout << "Digite um numero entre 1 e 100: ";
