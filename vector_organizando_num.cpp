@@ -27,6 +27,6 @@ int main (){
     for (int x : nums)
     cout << x << " ";
 
-    cout << "Os numeros em sequencia do vetor sao: " << test(nums) << endl;
+    cout << "Os numeros presentes no vetor sao sequenciais!" << test(nums) << endl;
 
 }
