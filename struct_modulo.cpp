@@ -18,8 +18,12 @@ bool dataValida(int dia, int mes, int ano){
     }
 
     int qtdDiasMes = 0;
+    
+    if (mes == 2){
+        qtdDiasMes = 28;
 
-    if (mes == 4 || mes == 6 || mes == 9 || mes == 11 ){       
+    }
+    else if (mes == 4 || mes == 6 || mes == 9 || mes == 11 ){       
         qtdDiasMes = 30;
 
     }
@@ -43,7 +47,7 @@ bool dataValida(int dia, int mes, int ano){
 struct Data inicializandoData(int dia, int mes, int ano){
     Data data;
 
-        if(dataValida(dia, mes ,ano )){
+        if(dataValida(dia, mes , ano)){
 
             data.dia = dia;
             data.mes = mes;
