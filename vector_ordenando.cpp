@@ -22,7 +22,7 @@ return true;
 
 int main (){
 
-vector<int>nums = {1, 2, 5, 7, 4, 3,6};
+vector<int>nums = {1, 2, 5, 7, 4, 3, 6};
 //vector<int>nums = { 1, 2 , 5, 0, 3, 6, 7};
 
 for (int x : nums){
