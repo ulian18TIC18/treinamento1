@@ -24,13 +24,15 @@ void segundoMaior(int num[], int _num){
         }        
     
     }
-if(segundo == INT_MIN){
-    cout << "Nao ha segundo elemento...";
+    if(segundo == INT_MIN){
+        cout << "Nao ha segundo elemento...";
 
-}
-else{
-cout << "O segundo elemento eh: " << segundo;
-}
+    }
+    else{
+    cout << "O segundo maior elemento eh: " << segundo;
+
+    }
+
 }
 
 

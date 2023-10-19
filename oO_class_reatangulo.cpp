@@ -3,7 +3,7 @@
 using namespace std;
 
 class Retangulo{
-    private:
+    public:
     double base, altura;
 
     public:
