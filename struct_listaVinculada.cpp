@@ -13,7 +13,7 @@ Lista *titulo = NULL;
 void inserirValor(int num1_)
 {
     Lista *novoNum1 = new Lista;
-    
+
     novoNum1->num1 = num1_;
     novoNum1->proximo = titulo;
     titulo = novoNum1;
@@ -23,7 +23,7 @@ void mostrarTodos()
 {
     cout << "\nListar todos os elementos:" << endl;
 
-    struct Lista *alocacao = titulo;
+    Lista *alocacao = titulo;
 
     while (alocacao != NULL)
     {
@@ -31,8 +31,7 @@ void mostrarTodos()
         alocacao = alocacao -> proximo;
     }
 
-    cout << endl;
-    
+    cout << endl;    
 }
 
 int main ()
