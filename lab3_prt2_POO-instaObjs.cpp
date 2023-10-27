@@ -10,18 +10,21 @@ struct Coordenadas
     void moverPara(int px, int py);
 };
 
-void Coordenadas::deslocamento(int dx, int dy){
+void Coordenadas::deslocamento(int dx, int dy)
+{
     x += dx;
     y += dy;
 }
 
-void Coordenadas::moverPara(int px, int py){
+void Coordenadas::moverPara(int px, int py)
+{
     x = px;
     y = py;
 }
 
 
-int main(){
+int main()
+{
 
     Coordenadas ponto1;
 
@@ -29,9 +32,7 @@ int main(){
     cout << "O ponto (" << ponto1.x << ", " << ponto1.y <<") " << endl;
 
     ponto1.deslocamento(4, 8);
-    cout << "O ponto (" << ponto1.x << ", " << ponto1.y <<") " << endl;    
-
-
+    cout << "O ponto (" << ponto1.x << ", " << ponto1.y <<") " << endl;   
 
 return 0;
 }
